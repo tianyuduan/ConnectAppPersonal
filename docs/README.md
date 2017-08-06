@@ -44,7 +44,7 @@ By the start of Week 12, this app will, at a minimum, satisfy the following crit
 [api-endpoints]: ./api-endpoints.md
 [schema]: ./schema.md
 
-##Group Members & Work Breakdown
+## Group Members & Work Breakdown
 
 Our group consists of three members, Tianyu Duan, Leo Liao and Stephen Loquet
 
@@ -55,7 +55,7 @@ Leo's primary responsibilities will be:
 
 Stephen's primary responsibilities will be:
 
-##Technologies
+## Technologies
 
 The mobile app, Connect, will be implemented with: JavaScript, HTML, CSS, React-Native, Redux, Node.Js and MongoDB
 
