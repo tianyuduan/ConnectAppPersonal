@@ -1,5 +1,4 @@
 # Connect
-
 [Heroku link][heroku]
 
 [Trello link][trello]
@@ -7,19 +6,30 @@
 [heroku]:
 [trello]:
 
-## Minimum Viable Product
+## Minimum Viable Product/ Functionality
 
-FishPx is a web application inspired by 500px built using Ruby on Rails and React/Redux.
+Connect is a mobile application built to make networking easier. Inspired by the idea of having an mobile business card, Connect allows Users to network with one another by simply scanning their QR code.
 
-By the end of Week 9, this app will, at a minimum, satisfy the following criteria with smooth, bug-free navigation, adequate seed data and sufficient CSS styling:
+Connect is built with React-Native, Node.js and MongoDB.
 
-- [ ] Hosting on Heroku
-- [ ] New account creation, login, and guest/demo login
-- [ ] Home Page
-- [ ] Content Page via categories/tags
-- [ ] Upload/Post Photography
-- [ ] Follows, Likes, Comments
+By the start of Week 12, this app will, at a minimum, satisfy the following criteria with smooth, bug-free navigation, adequate seed data and sufficient CSS styling:
+
+### Main MVPs
+
+- [ ] New account creation, login
+- [ ] Users able to Scan each other's QR codes
+- [ ] Use Google Maps API to display the time and location of networking
+- [ ] Be able to search for specific contacts
+- [ ] Be able categorize your contacts for organization
 - [ ] Production README
+
+### Auxiliary Functionality
+
+- [ ] Hosting on Heroku/ Database
+- [ ] Website to explain the application and to contain an emulator
+- [ ] Be able to view your contacts at the Website
+
+
 
 ## Design Docs
 * [View Wireframes][wireframes]
@@ -33,6 +43,30 @@ By the end of Week 9, this app will, at a minimum, satisfy the following criteri
 [sample-state]: ./sample-state.md
 [api-endpoints]: ./api-endpoints.md
 [schema]: ./schema.md
+
+##Group Members & Work Breakdown
+
+Our group consists of three members, Tianyu Duan, Leo Liao and Stephen Loquet
+
+Tianyu's primary responsibilities will be:
+
+
+Leo's primary responsibilities will be:
+
+Stephen's primary responsibilities will be:
+
+##Technologies
+
+The mobile app, Connect, will be implemented with: JavaScript, HTML, CSS, React-Native, Redux, Node.Js and MongoDB
+
+The primary technical challenges will be:
+
+  -Generating User specific QR codes upon account creation
+
+  -Scanning an displaying new contact information on own contact log
+
+  -Utilizing all new frameworks and technologies will be our biggest challenge
+
 
 ## Implementation Timeline
 
@@ -66,10 +100,12 @@ the API.
 **Objective:** User can comment on other User's Photos. User can Like an image. Each image will have an Like Counter.
 
 
-
 ### Bonus Features (TBD)
-- [ ] Infinite scroll
-- [ ] Discover Page
-- [ ] Search Photos
-- [ ] Follows
-- [ ] Profile Page
+- [ ] Works without Internet Connection
+- [ ] Authorize to work with Facebook, Linkedin and Snapchat
+- [ ] Email/Phone followup
+
+
+## Plan for getting users and reviews
+- All team members will share the app with at least 20 friends and ask for feed and reviews
+- Friend/entrepreneur, Vivian Hsu, will attend pitching events to promote application to potential investors
